@@ -1,4 +1,6 @@
 {
   "enach_validation_url": "https://enach.licindia.in/nachproposalclient/",
-  "nav_ananda_url": "https://nav-ananda.licindia.in/"
+  "nav_ananda_url": "https://nav-ananda.licindia.in/",
+  "plan_configs_url": "https://raw.githubusercontent.com/Soumya01-hacker/Plan_Master_Content/main/plan_configs.json",
+  "bonus_rates_url": "https://raw.githubusercontent.com/Soumya01-hacker/Plan_Master_Content/main/bonus_rates.json"
 }

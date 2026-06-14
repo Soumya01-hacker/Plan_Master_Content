@@ -1,0 +1,1561 @@
+{
+  "config_version": "2025.06.01",
+  "last_updated": "2025-06-14",
+  "plans": {
+    "714": {
+      "name": "New Endowment Plan",
+      "uin": "512N277V03",
+      "category": "endowment",
+      "participating": true,
+      "status": "active",
+      "eligibility": {
+        "min_age": 8, "max_age": 50, "max_maturity_age": 75,
+        "min_sa": 200000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 12, "max_term": 35,
+        "ppt_rule": "equal_to_term",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [
+          {"min_sa": 0, "max_sa": 199999, "rebate_per_1000": 0},
+          {"min_sa": 200000, "max_sa": 499999, "rebate_per_1000": 1.50},
+          {"min_sa": 500000, "max_sa": 999999999, "rebate_per_1000": 2.00}
+        ],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": 7,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false
+      },
+      "bonus_config_key": "714",
+      "riders": ["addb", "tar", "cib", "wop_ad"],
+      "features": ["loan", "surrender_1yr", "settlement_option", "paid_up"]
+    },
+
+    "715": {
+      "name": "New Jeevan Anand",
+      "uin": "512N279V03",
+      "category": "endowment",
+      "participating": true,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 50, "max_maturity_age": 75,
+        "min_sa": 200000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 15, "max_term": 35,
+        "ppt_rule": "equal_to_term",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [
+          {"min_sa": 0, "max_sa": 199999, "rebate_per_1000": 0},
+          {"min_sa": 200000, "max_sa": 499999, "rebate_per_1000": 1.50},
+          {"min_sa": 500000, "max_sa": 999999999, "rebate_per_1000": 2.00}
+        ],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.25,
+        "ap_multiplier": 7,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false,
+        "floor_105_percent": true,
+        "post_maturity_cover": {"type": "bsa_on_death", "amount_percentage": 100},
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false
+      },
+      "bonus_config_key": "715",
+      "riders": ["addb", "tar", "cib"],
+      "features": ["loan", "surrender_1yr", "settlement_option", "paid_up", "whole_life_cover"]
+    },
+
+    "733": {
+      "name": "Jeevan Lakshya",
+      "uin": "512N297V03",
+      "category": "endowment",
+      "participating": true,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 50, "max_maturity_age": 75,
+        "min_sa": 200000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 13, "max_term": 25,
+        "ppt_rule": "term_minus_n",
+        "ppt_offset": 3,
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [
+          {"min_sa": 0, "max_sa": 199999, "rebate_per_1000": 0},
+          {"min_sa": 200000, "max_sa": 499999, "rebate_per_1000": 1.50},
+          {"min_sa": 500000, "max_sa": 999999999, "rebate_per_1000": 2.00}
+        ],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "lakshya_special",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": 7,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": {
+          "type": "income_plus_terminal",
+          "premium_waiver": true,
+          "annual_income_pct": 10,
+          "terminal_bsa_pct": 110,
+          "terminal_adds_bonus": true,
+          "terminal_adds_fab": true
+        }
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false
+      },
+      "bonus_config_key": "733",
+      "riders": ["addb", "tar", "cib"],
+      "features": ["loan", "surrender_1yr", "settlement_option", "premium_waiver_on_death"]
+    },
+
+    "736": {
+      "name": "Jeevan Labh",
+      "uin": "512N304V03",
+      "category": "endowment",
+      "participating": true,
+      "status": "active",
+      "eligibility": {
+        "min_age": 8, "max_age": 59, "max_maturity_age": 75,
+        "min_sa": 200000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 16, "max_term": 25,
+        "ppt_rule": "from_combos",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": [
+          {"term": 16, "ppt": 10, "max_age": 59},
+          {"term": 21, "ppt": 15, "max_age": 54},
+          {"term": 25, "ppt": 16, "max_age": 50}
+        ],
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [
+          {"min_sa": 0, "max_sa": 199999, "rebate_per_1000": 0},
+          {"min_sa": 200000, "max_sa": 499999, "rebate_per_1000": 1.50},
+          {"min_sa": 500000, "max_sa": 999999999, "rebate_per_1000": 2.00}
+        ],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": 7,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false
+      },
+      "bonus_config_key": "736",
+      "riders": ["addb", "tar", "cib", "wop_ad"],
+      "features": ["loan", "surrender_1yr", "settlement_option"]
+    },
+
+    "760": {
+      "name": "Bima Jyoti",
+      "uin": "512N339V03",
+      "category": "endowment",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 8, "max_age": 60, "max_maturity_age": 75,
+        "min_sa": 100000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 15, "max_term": 20,
+        "ppt_rule": "term_minus_n",
+        "ppt_offset": 5,
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [
+          {"min_sa": 0, "max_sa": 199999, "rebate_per_1000": 0},
+          {"min_sa": 200000, "max_sa": 499999, "rebate_per_1000": 1.50},
+          {"min_sa": 500000, "max_sa": 999999999, "rebate_per_1000": 2.00}
+        ],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.25,
+        "ap_multiplier": 7,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true
+      },
+      "bonus_config_key": "760",
+      "riders": ["addb"],
+      "features": ["loan", "surrender_1yr"]
+    },
+
+    "717": {
+      "name": "Single Premium Endowment",
+      "uin": "512N283V03",
+      "category": "endowment",
+      "participating": true,
+      "status": "active",
+      "eligibility": {
+        "min_age": 8, "max_age": 65, "max_maturity_age": 75,
+        "min_sa": 50000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 10, "max_term": 25,
+        "ppt_rule": "single_premium",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "single",
+        "modal_factors": null,
+        "mode_rebates": null,
+        "high_sa_rebates": [
+          {"min_sa": 0, "max_sa": 199999, "rebate_per_1000": 0},
+          {"min_sa": 200000, "max_sa": 499999, "rebate_per_1000": 1.50},
+          {"min_sa": 500000, "max_sa": 999999999, "rebate_per_1000": 2.00}
+        ],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0
+      },
+      "death_benefit": {
+        "formula": "bsa_only",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": null,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false
+      },
+      "bonus_config_key": "717",
+      "riders": ["addb", "tar"],
+      "features": ["loan", "surrender_1yr"]
+    },
+
+    "912": {
+      "name": "Nav Jeevan Shree",
+      "uin": "512N387V01",
+      "category": "endowment",
+      "participating": false,
+      "status": "withdrawn",
+      "eligibility": {
+        "min_age": 0, "max_age": 60, "max_maturity_age": 75,
+        "min_sa": 500000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 10, "max_term": 20,
+        "ppt_rule": "from_combos",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": [
+          {"term": 10, "ppt": 6, "max_age": 60},
+          {"term": 12, "ppt": 8, "max_age": 60},
+          {"term": 14, "ppt": 10, "max_age": 60},
+          {"term": 16, "ppt": 12, "max_age": 59}
+        ],
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": 7,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true
+      },
+      "bonus_config_key": "912",
+      "riders": [],
+      "features": ["loan", "surrender_1yr"]
+    },
+
+    "888": {
+      "name": "New Jeevan Sathi (Single Prem)",
+      "uin": "512N393V01",
+      "category": "endowment",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 60, "max_maturity_age": 80,
+        "min_sa": 300000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 10, "max_term": 25,
+        "ppt_rule": "single_premium",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false, "joint_life": true
+      },
+      "premium": {
+        "type": "single",
+        "modal_factors": null,
+        "mode_rebates": null,
+        "high_sa_rebates": [],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0
+      },
+      "death_benefit": {
+        "formula": "bsa_plus_ga",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": null,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": {"type": "joint_life", "premium_waiver_on_first_death": true}
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true
+      },
+      "bonus_config_key": "888",
+      "riders": [],
+      "features": ["joint_life"]
+    },
+
+    "889": {
+      "name": "New Jeevan Sathi (Limited Prem)",
+      "uin": "512N394V01",
+      "category": "endowment",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 50, "max_maturity_age": 70,
+        "min_sa": 300000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 10, "max_term": 25,
+        "ppt_rule": "from_list",
+        "fixed_terms": null, "allowed_ppts": [5, 10, 15],
+        "term_ppt_combos": null,
+        "female_only": false, "joint_life": true
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "bsa_plus_ga",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": null,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": {"type": "joint_life", "premium_waiver_on_first_death": true}
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true
+      },
+      "bonus_config_key": "889",
+      "riders": [],
+      "features": ["joint_life"]
+    },
+
+    "720": {
+      "name": "New Money Back (20 Yrs)",
+      "uin": "512N280V03",
+      "category": "money_back",
+      "participating": true,
+      "status": "active",
+      "eligibility": {
+        "min_age": 13, "max_age": 50, "max_maturity_age": 70,
+        "min_sa": 100000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 20, "max_term": 20,
+        "ppt_rule": "fixed",
+        "ppt_value": 15,
+        "fixed_terms": [20], "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [
+          {"min_sa": 0, "max_sa": 199999, "rebate_per_1000": 0},
+          {"min_sa": 200000, "max_sa": 499999, "rebate_per_1000": 1.50},
+          {"min_sa": 500000, "max_sa": 999999999, "rebate_per_1000": 2.00}
+        ],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.25,
+        "ap_multiplier": 7,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": {
+        "type": "fixed_schedule",
+        "payouts": [
+          {"at_year": 5, "pct_of_bsa": 20},
+          {"at_year": 10, "pct_of_bsa": 20},
+          {"at_year": 15, "pct_of_bsa": 20}
+        ]
+      },
+      "maturity_benefit": {
+        "bsa_percentage": 40,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false
+      },
+      "bonus_config_key": "720",
+      "riders": ["addb", "tar", "cib"],
+      "features": ["loan", "surrender_1yr", "settlement_option"]
+    },
+
+    "721": {
+      "name": "New Money Back (25 Yrs)",
+      "uin": "512N278V03",
+      "category": "money_back",
+      "participating": true,
+      "status": "active",
+      "eligibility": {
+        "min_age": 13, "max_age": 45, "max_maturity_age": 70,
+        "min_sa": 100000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 25, "max_term": 25,
+        "ppt_rule": "fixed",
+        "ppt_value": 20,
+        "fixed_terms": [25], "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [
+          {"min_sa": 0, "max_sa": 199999, "rebate_per_1000": 0},
+          {"min_sa": 200000, "max_sa": 499999, "rebate_per_1000": 1.50},
+          {"min_sa": 500000, "max_sa": 999999999, "rebate_per_1000": 2.00}
+        ],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.25,
+        "ap_multiplier": 7,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": {
+        "type": "fixed_schedule",
+        "payouts": [
+          {"at_year": 5, "pct_of_bsa": 15},
+          {"at_year": 10, "pct_of_bsa": 15},
+          {"at_year": 15, "pct_of_bsa": 15},
+          {"at_year": 20, "pct_of_bsa": 15}
+        ]
+      },
+      "maturity_benefit": {
+        "bsa_percentage": 40,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false
+      },
+      "bonus_config_key": "721",
+      "riders": ["addb", "tar", "cib"],
+      "features": ["loan", "surrender_1yr", "settlement_option"]
+    },
+
+    "748": {
+      "name": "Bima Shree",
+      "uin": "512N316V03",
+      "category": "money_back",
+      "participating": true,
+      "status": "active",
+      "eligibility": {
+        "min_age": 8, "max_age": 55, "max_maturity_age": 75,
+        "min_sa": 1000000, "max_sa": null, "sa_increment": 10000,
+        "min_term": 14, "max_term": 20,
+        "ppt_rule": "from_combos",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": [
+          {"term": 14, "ppt": 10, "max_age": 60},
+          {"term": 16, "ppt": 12, "max_age": 58},
+          {"term": 18, "ppt": 14, "max_age": 56},
+          {"term": 20, "ppt": 16, "max_age": 54}
+        ],
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "fixed_multiplier",
+        "bsa_multiplier": 1.25,
+        "ap_multiplier": null,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true,
+        "adds_la": true,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": {
+        "type": "bima_shree_schedule",
+        "payouts_by_term": {
+          "14": [{"at_year": 10, "pct_of_bsa": 30}, {"at_year": 12, "pct_of_bsa": 30}],
+          "16": [{"at_year": 12, "pct_of_bsa": 35}, {"at_year": 14, "pct_of_bsa": 35}],
+          "18": [{"at_year": 14, "pct_of_bsa": 40}, {"at_year": 16, "pct_of_bsa": 40}],
+          "20": [{"at_year": 16, "pct_of_bsa": 45}, {"at_year": 18, "pct_of_bsa": 45}]
+        },
+        "maturity_remaining_pct_by_term": {"14": 40, "16": 30, "18": 20, "20": 10}
+      },
+      "maturity_benefit": {
+        "bsa_percentage_from_survival": true,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true,
+        "adds_la": true
+      },
+      "bonus_config_key": "748",
+      "riders": ["addb", "tar", "cib"],
+      "features": ["loan", "surrender_1yr", "settlement_option"]
+    },
+
+    "732": {
+      "name": "New Children's Money Back",
+      "uin": "512N296V03",
+      "category": "children",
+      "participating": true,
+      "status": "active",
+      "eligibility": {
+        "min_age": 0, "max_age": 12, "max_maturity_age": 25,
+        "min_sa": 100000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 13, "max_term": 25,
+        "ppt_rule": "age_based",
+        "ppt_formula": "25_minus_age",
+        "term_formula": "25_minus_age",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [
+          {"min_sa": 0, "max_sa": 199999, "rebate_per_1000": 0},
+          {"min_sa": 200000, "max_sa": 499999, "rebate_per_1000": 1.50},
+          {"min_sa": 500000, "max_sa": 999999999, "rebate_per_1000": 2.00}
+        ],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": 7,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": {
+        "type": "age_based_schedule",
+        "payouts": [
+          {"at_age": 18, "pct_of_bsa": 20},
+          {"at_age": 20, "pct_of_bsa": 20},
+          {"at_age": 22, "pct_of_bsa": 20}
+        ]
+      },
+      "maturity_benefit": {
+        "bsa_percentage": 40,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false
+      },
+      "bonus_config_key": "732",
+      "riders": ["addb", "tar"],
+      "features": ["loan", "surrender_1yr"]
+    },
+
+    "734": {
+      "name": "Jeevan Tarun",
+      "uin": "512N299V03",
+      "category": "children",
+      "participating": true,
+      "status": "active",
+      "eligibility": {
+        "min_age": 0, "max_age": 12, "max_maturity_age": 25,
+        "min_sa": 75000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 13, "max_term": 25,
+        "ppt_rule": "age_based",
+        "ppt_formula": "20_minus_age",
+        "term_formula": "25_minus_age",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [
+          {"min_sa": 0, "max_sa": 199999, "rebate_per_1000": 0},
+          {"min_sa": 200000, "max_sa": 499999, "rebate_per_1000": 1.50},
+          {"min_sa": 500000, "max_sa": 999999999, "rebate_per_1000": 2.00}
+        ],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": 7,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": {
+        "type": "jeevan_tarun_options",
+        "options": {
+          "1": {"annual_sb_pct": 0, "maturity_pct": 100, "sb_ages": []},
+          "2": {"annual_sb_pct": 5, "maturity_pct": 75, "sb_ages": [20,21,22,23,24]},
+          "3": {"annual_sb_pct": 10, "maturity_pct": 50, "sb_ages": [20,21,22,23,24]},
+          "4": {"annual_sb_pct": 15, "maturity_pct": 25, "sb_ages": [20,21,22,23,24]}
+        }
+      },
+      "maturity_benefit": {
+        "bsa_percentage_from_option": true,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false
+      },
+      "bonus_config_key": "734",
+      "riders": ["addb", "tar"],
+      "features": ["loan", "surrender_1yr"]
+    },
+
+    "774": {
+      "name": "Amrit Baal",
+      "uin": "512N365V02",
+      "category": "children",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 0, "max_age": 13, "max_maturity_age": 25,
+        "min_sa": 200000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 10, "max_term": 25,
+        "ppt_rule": "from_list",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": 7,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true
+      },
+      "bonus_config_key": "774",
+      "riders": [],
+      "features": ["loan", "surrender_1yr"]
+    },
+
+    "881": {
+      "name": "Bima Lakshmi",
+      "uin": "512N389V01",
+      "category": "mahila",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 50, "max_maturity_age": 65,
+        "min_sa": 200000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 25, "max_term": 25,
+        "ppt_rule": "from_list",
+        "fixed_terms": [25], "allowed_ppts": [7, 10, 15],
+        "term_ppt_combos": null,
+        "female_only": true
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": 7,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true
+      },
+      "bonus_config_key": "881",
+      "riders": ["cib"],
+      "features": ["loan", "surrender_1yr", "auto_cover"]
+    },
+
+    "751": {
+      "name": "Micro Bachat",
+      "uin": "512N329V02",
+      "category": "micro",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 55, "max_maturity_age": 70,
+        "min_sa": 50000, "max_sa": 200000, "sa_increment": 5000,
+        "min_term": 10, "max_term": 15,
+        "ppt_rule": "equal_to_term",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": 7,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": false,
+        "adds_la": true,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": false,
+        "adds_la": true
+      },
+      "bonus_config_key": "751",
+      "riders": [],
+      "features": ["no_medical"]
+    },
+
+    "880": {
+      "name": "Jan Suraksha",
+      "uin": "512N388V01",
+      "category": "micro",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 55, "max_maturity_age": 70,
+        "min_sa": 100000, "max_sa": 200000, "sa_increment": 5000,
+        "min_term": 10, "max_term": 15,
+        "ppt_rule": "equal_to_term",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "bsa_plus_ga",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": null,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true
+      },
+      "bonus_config_key": "880",
+      "riders": [],
+      "features": ["no_medical", "auto_cover"]
+    },
+
+    "745": {
+      "name": "Jeevan Umang",
+      "uin": "512N312V03",
+      "category": "whole_life",
+      "participating": true,
+      "status": "active",
+      "eligibility": {
+        "min_age": 0, "max_age": 55, "max_maturity_age": 100,
+        "min_sa": 200000, "max_sa": null, "sa_increment": 5000,
+        "min_term": 100, "max_term": 100,
+        "ppt_rule": "from_list",
+        "fixed_terms": null, "allowed_ppts": [15, 20, 25, 30],
+        "term_ppt_combos": null,
+        "term_formula": "100_minus_age",
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [
+          {"min_sa": 0, "max_sa": 199999, "rebate_per_1000": 0},
+          {"min_sa": 200000, "max_sa": 499999, "rebate_per_1000": 1.50},
+          {"min_sa": 500000, "max_sa": 999999999, "rebate_per_1000": 2.00}
+        ],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": 7,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": {
+        "type": "annual_income_post_ppt",
+        "income_pct_of_bsa": 8,
+        "starts_after_ppt": true,
+        "ends_at_age": 99
+      },
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": true,
+        "adds_fab": true,
+        "adds_ga": false
+      },
+      "bonus_config_key": "745",
+      "riders": ["addb", "tar", "cib"],
+      "features": ["loan", "surrender_1yr", "income_accumulation"]
+    },
+
+    "771": {
+      "name": "Jeevan Utsav",
+      "uin": "512N363V02",
+      "category": "whole_life",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 0, "max_age": 65, "max_maturity_age": 100,
+        "min_sa": 500000, "max_sa": null, "sa_increment": 10000,
+        "min_term": 100, "max_term": 100,
+        "ppt_rule": "from_list",
+        "fixed_terms": null, "allowed_ppts": [5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16],
+        "term_ppt_combos": null,
+        "term_formula": "100_minus_age",
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {"yearly": 0.02, "half_yearly": 0.01, "quarterly": 0.0, "monthly": 0.0},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0225
+      },
+      "death_benefit": {
+        "formula": "higher_of",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": 7,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": {
+        "type": "annual_income_post_ppt",
+        "income_pct_of_bsa": 10,
+        "starts_after_ppt": true,
+        "ends_at_age": 99,
+        "flexi_option": {"accumulation_rate": 5.5}
+      },
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true
+      },
+      "bonus_config_key": "771",
+      "riders": ["addb"],
+      "features": ["loan", "surrender_1yr", "flexi_income"]
+    },
+
+    "883": {
+      "name": "Jeevan Utsav (Single Prem)",
+      "uin": "512N363V02",
+      "category": "whole_life",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 0, "max_age": 65, "max_maturity_age": 100,
+        "min_sa": 500000, "max_sa": null, "sa_increment": 10000,
+        "min_term": 100, "max_term": 100,
+        "ppt_rule": "single_premium",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "term_formula": "100_minus_age",
+        "female_only": false
+      },
+      "premium": {
+        "type": "single",
+        "modal_factors": null,
+        "mode_rebates": null,
+        "high_sa_rebates": [],
+        "gst_first_year": 0.045,
+        "gst_renewal": 0.0
+      },
+      "death_benefit": {
+        "formula": "bsa_plus_ga",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": null,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true,
+        "floor_105_percent": true,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": {
+        "type": "annual_income_post_ppt",
+        "income_pct_of_bsa": 10,
+        "starts_after_ppt": true,
+        "ends_at_age": 99
+      },
+      "maturity_benefit": {
+        "bsa_percentage": 100,
+        "adds_bonus": false,
+        "adds_fab": false,
+        "adds_ga": true
+      },
+      "bonus_config_key": "883",
+      "riders": [],
+      "features": ["loan", "surrender_1yr"]
+    },
+
+    "955": {
+      "name": "New Jeevan Amar",
+      "uin": "512N350V02",
+      "category": "term",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 65, "max_maturity_age": 80,
+        "min_sa": 2500000, "max_sa": null, "sa_increment": 100000,
+        "min_term": 10, "max_term": 40,
+        "ppt_rule": "term_options",
+        "ppt_options": ["regular", "term_minus_5", "term_minus_10", "single"],
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.18,
+        "gst_renewal": 0.18
+      },
+      "death_benefit": {
+        "formula": "term_plan",
+        "options": {
+          "level": {"bsa_multiplier": 1.0},
+          "increasing": {"bsa_multiplier": 1.0, "increase_pct_per_year": 10, "max_multiplier": 2.0}
+        },
+        "adds_bonus": false, "adds_fab": false, "adds_ga": false,
+        "floor_105_percent": false,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": null,
+      "bonus_config_key": null,
+      "riders": ["addb", "cib"],
+      "features": ["settlement_option"]
+    },
+
+    "875": {
+      "name": "YUVA TERM",
+      "uin": "512N355V01",
+      "category": "term",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 45, "max_maturity_age": 85,
+        "min_sa": 5000000, "max_sa": 50000000, "sa_increment": 100000,
+        "min_term": 10, "max_term": 40,
+        "ppt_rule": "equal_to_term",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.18,
+        "gst_renewal": 0.18
+      },
+      "death_benefit": {
+        "formula": "term_plan",
+        "options": {"level": {"bsa_multiplier": 1.0}},
+        "adds_bonus": false, "adds_fab": false, "adds_ga": false,
+        "floor_105_percent": false,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": null,
+      "bonus_config_key": null,
+      "riders": ["addb"],
+      "features": []
+    },
+
+    "877": {
+      "name": "Yuva Credit Life",
+      "uin": "512N357V01",
+      "category": "term",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 45, "max_maturity_age": 70,
+        "min_sa": 5000000, "max_sa": 50000000, "sa_increment": 100000,
+        "min_term": 10, "max_term": 25,
+        "ppt_rule": "equal_to_term",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.18,
+        "gst_renewal": 0.18
+      },
+      "death_benefit": {
+        "formula": "term_plan",
+        "options": {"level": {"bsa_multiplier": 1.0}},
+        "adds_bonus": false, "adds_fab": false, "adds_ga": false,
+        "floor_105_percent": false,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": null,
+      "bonus_config_key": null,
+      "riders": [],
+      "features": []
+    },
+
+    "887": {
+      "name": "Bima Kavach",
+      "uin": "512N360V01",
+      "category": "term",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 65, "max_maturity_age": 100,
+        "min_sa": 2500000, "max_sa": null, "sa_increment": 100000,
+        "min_term": 10, "max_term": 82,
+        "ppt_rule": "term_options",
+        "ppt_options": ["regular", "limited", "single"],
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.18,
+        "gst_renewal": 0.18
+      },
+      "death_benefit": {
+        "formula": "term_plan",
+        "options": {
+          "level": {"bsa_multiplier": 1.0},
+          "increasing": {"bsa_multiplier": 1.0, "increase_pct_per_year": 10, "max_multiplier": 2.0}
+        },
+        "adds_bonus": false, "adds_fab": false, "adds_ga": false,
+        "floor_105_percent": false,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null
+      },
+      "survival_benefit": null,
+      "maturity_benefit": null,
+      "bonus_config_key": null,
+      "riders": ["addb", "cib"],
+      "features": ["settlement_option"]
+    },
+
+    "859": {
+      "name": "Saral Jeevan Bima",
+      "uin": "512N341V01",
+      "category": "term",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 65, "max_maturity_age": 70,
+        "min_sa": 500000, "max_sa": 2500000, "sa_increment": 50000,
+        "min_term": 5, "max_term": 40,
+        "ppt_rule": "term_options",
+        "ppt_options": ["regular", "term_minus_5", "single"],
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {
+        "type": "regular",
+        "modal_factors": {"yearly": 1.0, "half_yearly": 0.5085, "quarterly": 0.2565, "monthly": 0.0875},
+        "mode_rebates": {},
+        "high_sa_rebates": [],
+        "gst_first_year": 0.18,
+        "gst_renewal": 0.18
+      },
+      "death_benefit": {
+        "formula": "bsa_only",
+        "bsa_multiplier": 1.0,
+        "ap_multiplier": null,
+        "adds_bonus": false, "adds_fab": false, "adds_ga": false,
+        "floor_105_percent": false,
+        "post_maturity_cover": null,
+        "survival_benefits_deducted": false,
+        "special_death": null,
+        "waiting_period_days": 45
+      },
+      "survival_benefit": null,
+      "maturity_benefit": null,
+      "bonus_config_key": null,
+      "riders": [],
+      "features": ["standardized_product"]
+    },
+
+    "857": {
+      "name": "Jeevan Akshay-VII",
+      "uin": "512N337V07",
+      "category": "pension",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 30, "max_age": 100, "max_maturity_age": null,
+        "min_sa": null, "max_sa": null,
+        "min_purchase_price": 100000,
+        "min_term": null, "max_term": null,
+        "ppt_rule": "single_premium",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {"type": "single_purchase", "gst_first_year": 0.018, "gst_renewal": 0.0},
+      "annuity_options": ["A","B","C","D","E","F","G","J"],
+      "death_benefit": {"formula": "annuity_specific"},
+      "survival_benefit": null,
+      "maturity_benefit": null,
+      "bonus_config_key": null,
+      "riders": [],
+      "features": ["immediate_annuity"]
+    },
+
+    "758": {
+      "name": "New Jeevan Shanti",
+      "uin": "512N338V07",
+      "category": "pension",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 30, "max_age": 79, "max_maturity_age": 80,
+        "min_sa": null, "max_sa": null,
+        "min_purchase_price": 150000,
+        "deferment_period": {"min": 1, "max": 5},
+        "vesting_age": {"min": 31, "max": 80},
+        "min_term": null, "max_term": null,
+        "ppt_rule": "single_premium",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {"type": "single_purchase", "gst_first_year": 0.018, "gst_renewal": 0.0},
+      "death_benefit": {"formula": "annuity_specific"},
+      "survival_benefit": null,
+      "maturity_benefit": null,
+      "bonus_config_key": null,
+      "riders": [],
+      "features": ["deferred_annuity"]
+    },
+
+    "879": {
+      "name": "Smart Pension",
+      "uin": "512N358V01",
+      "category": "pension",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 100, "max_maturity_age": null,
+        "min_sa": null, "max_sa": null,
+        "min_purchase_price": 100000,
+        "min_term": null, "max_term": null,
+        "ppt_rule": "single_premium",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {"type": "single_purchase", "gst_first_year": 0.018, "gst_renewal": 0.0},
+      "death_benefit": {"formula": "annuity_specific"},
+      "survival_benefit": null,
+      "maturity_benefit": null,
+      "bonus_config_key": null,
+      "riders": [],
+      "features": ["immediate_annuity"]
+    },
+
+    "862": {
+      "name": "Saral Pension",
+      "uin": "512N342V01",
+      "category": "pension",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 40, "max_age": 80, "max_maturity_age": null,
+        "min_sa": null, "max_sa": null,
+        "min_purchase_price": 100000,
+        "min_term": null, "max_term": null,
+        "ppt_rule": "single_premium",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {"type": "single_purchase", "gst_first_year": 0.018, "gst_renewal": 0.0},
+      "death_benefit": {"formula": "annuity_specific"},
+      "survival_benefit": null,
+      "maturity_benefit": null,
+      "bonus_config_key": null,
+      "riders": [],
+      "features": ["standardized_annuity"]
+    },
+
+    "749": {
+      "name": "Nivesh Plus",
+      "uin": "512L335V02",
+      "category": "ulip",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 0, "max_age": 70, "max_maturity_age": 85,
+        "min_sa": 100000, "max_sa": null,
+        "min_term": 10, "max_term": 25,
+        "ppt_rule": "single_premium",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {"type": "single", "gst_first_year": 0.18, "gst_renewal": 0.0},
+      "death_benefit": {
+        "formula": "ulip",
+        "higher_of_options": ["1.25_x_single_premium", "fund_value"],
+        "adds_bonus": false, "adds_fab": false, "adds_ga": false,
+        "floor_105_percent": false
+      },
+      "maturity_benefit": {"formula": "fund_value_plus_romc"},
+      "bonus_config_key": null,
+      "riders": [],
+      "features": ["ulip", "fund_switching"]
+    },
+
+    "752": {
+      "name": "SIIP",
+      "uin": "512L334V02",
+      "category": "ulip",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 0, "max_age": 65, "max_maturity_age": 80,
+        "min_sa": 100000, "max_sa": null,
+        "min_term": 10, "max_term": 25,
+        "ppt_rule": "equal_to_term",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {"type": "regular", "gst_first_year": 0.18, "gst_renewal": 0.18},
+      "death_benefit": {
+        "formula": "ulip",
+        "higher_of_options": ["bsa", "fund_value"],
+        "adds_bonus": false, "adds_fab": false, "adds_ga": false,
+        "floor_105_percent": false
+      },
+      "maturity_benefit": {"formula": "fund_value_plus_romc"},
+      "bonus_config_key": null,
+      "riders": [],
+      "features": ["ulip", "fund_switching", "systematic_investment"]
+    },
+
+    "873": {
+      "name": "Index Plus",
+      "uin": "512L336V01",
+      "category": "ulip",
+      "participating": false,
+      "status": "withdrawn",
+      "eligibility": {
+        "min_age": 0, "max_age": 60, "max_maturity_age": 75,
+        "min_sa": 100000, "max_sa": null,
+        "min_term": 10, "max_term": 20,
+        "ppt_rule": "equal_to_term",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {"type": "regular", "gst_first_year": 0.18, "gst_renewal": 0.18},
+      "death_benefit": {"formula": "ulip"},
+      "maturity_benefit": {"formula": "fund_value_plus_romc"},
+      "bonus_config_key": null,
+      "riders": [],
+      "features": ["ulip", "withdrawn"]
+    },
+
+    "886": {
+      "name": "Protection Plus",
+      "uin": "512L361V01",
+      "category": "ulip",
+      "participating": false,
+      "status": "active",
+      "eligibility": {
+        "min_age": 18, "max_age": 65, "max_maturity_age": 80,
+        "min_sa": 100000, "max_sa": null,
+        "min_term": 15, "max_term": 25,
+        "ppt_rule": "equal_to_term",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {"type": "regular", "gst_first_year": 0.18, "gst_renewal": 0.18},
+      "death_benefit": {"formula": "ulip"},
+      "maturity_benefit": {"formula": "fund_value_plus_romc"},
+      "bonus_config_key": null,
+      "riders": [],
+      "features": ["ulip", "fund_switching"]
+    },
+
+    "867": {
+      "name": "New Pension Plus",
+      "uin": "512L333V02",
+      "category": "ulip",
+      "participating": false,
+      "status": "withdrawn",
+      "eligibility": {
+        "min_age": 25, "max_age": 75, "max_maturity_age": 80,
+        "min_sa": null, "max_sa": null,
+        "min_term": 10, "max_term": 30,
+        "ppt_rule": "equal_to_term",
+        "fixed_terms": null, "allowed_ppts": null,
+        "term_ppt_combos": null,
+        "female_only": false
+      },
+      "premium": {"type": "regular", "gst_first_year": 0.18, "gst_renewal": 0.18},
+      "death_benefit": {"formula": "ulip_pension"},
+      "maturity_benefit": {"formula": "fund_value_pension"},
+      "bonus_config_key": null,
+      "riders": [],
+      "features": ["ulip", "pension", "withdrawn"]
+    }
+  }
+}

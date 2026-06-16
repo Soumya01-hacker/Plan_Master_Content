@@ -9,9 +9,24 @@
       "bonus_type": "srb_fab",
       "srb_slabs": "two_slab",
       "srb": [
-        {"min_term": 12, "max_term": 15, "rate_below_5l": 35, "rate_5l_plus": 36},
-        {"min_term": 16, "max_term": 20, "rate_below_5l": 39, "rate_5l_plus": 40},
-        {"min_term": 21, "max_term": 99, "rate_below_5l": 45, "rate_5l_plus": 46}
+        {
+          "min_term": 12,
+          "max_term": 15,
+          "rate_below_5l": 35,
+          "rate_5l_plus": 36
+        },
+        {
+          "min_term": 16,
+          "max_term": 20,
+          "rate_below_5l": 39,
+          "rate_5l_plus": 40
+        },
+        {
+          "min_term": 21,
+          "max_term": 99,
+          "rate_below_5l": 45,
+          "rate_5l_plus": 46
+        }
       ],
       "fab_group": "endowment_714"
     },
@@ -20,9 +35,24 @@
       "bonus_type": "srb_fab",
       "srb_slabs": "two_slab",
       "srb": [
-        {"min_term": 15, "max_term": 15, "rate_below_5l": 38, "rate_5l_plus": 39},
-        {"min_term": 16, "max_term": 20, "rate_below_5l": 42, "rate_5l_plus": 43},
-        {"min_term": 21, "max_term": 99, "rate_below_5l": 46, "rate_5l_plus": 47}
+        {
+          "min_term": 15,
+          "max_term": 15,
+          "rate_below_5l": 38,
+          "rate_5l_plus": 39
+        },
+        {
+          "min_term": 16,
+          "max_term": 20,
+          "rate_below_5l": 42,
+          "rate_5l_plus": 43
+        },
+        {
+          "min_term": 21,
+          "max_term": 99,
+          "rate_below_5l": 46,
+          "rate_5l_plus": 47
+        }
       ],
       "fab_group": "jeevan_anand_715"
     },
@@ -31,9 +61,24 @@
       "bonus_type": "srb_fab",
       "srb_slabs": "two_slab",
       "srb": [
-        {"min_term": 10, "max_term": 15, "rate_below_5l": 38, "rate_5l_plus": 39},
-        {"min_term": 16, "max_term": 20, "rate_below_5l": 43, "rate_5l_plus": 44},
-        {"min_term": 21, "max_term": 99, "rate_below_5l": 48, "rate_5l_plus": 49}
+        {
+          "min_term": 10,
+          "max_term": 15,
+          "rate_below_5l": 38,
+          "rate_5l_plus": 39
+        },
+        {
+          "min_term": 16,
+          "max_term": 20,
+          "rate_below_5l": 43,
+          "rate_5l_plus": 44
+        },
+        {
+          "min_term": 21,
+          "max_term": 99,
+          "rate_below_5l": 48,
+          "rate_5l_plus": 49
+        }
       ],
       "fab_group": "endowment_714"
     },
@@ -42,7 +87,12 @@
       "bonus_type": "srb_fab",
       "srb_slabs": "two_slab",
       "srb": [
-        {"min_term": 20, "max_term": 20, "rate_below_5l": 36, "rate_5l_plus": 37}
+        {
+          "min_term": 20,
+          "max_term": 20,
+          "rate_below_5l": 36,
+          "rate_5l_plus": 37
+        }
       ],
       "fab_group": "money_back_720"
     },
@@ -51,7 +101,12 @@
       "bonus_type": "srb_fab",
       "srb_slabs": "two_slab",
       "srb": [
-        {"min_term": 25, "max_term": 25, "rate_below_5l": 41, "rate_5l_plus": 42}
+        {
+          "min_term": 25,
+          "max_term": 25,
+          "rate_below_5l": 41,
+          "rate_5l_plus": 42
+        }
       ],
       "fab_group": "money_back_721"
     },
@@ -60,9 +115,24 @@
       "bonus_type": "srb_fab",
       "srb_slabs": "two_slab",
       "srb": [
-        {"min_term": 13, "max_term": 15, "rate_below_5l": 35, "rate_5l_plus": 36},
-        {"min_term": 16, "max_term": 20, "rate_below_5l": 39, "rate_5l_plus": 40},
-        {"min_term": 21, "max_term": 99, "rate_below_5l": 45, "rate_5l_plus": 46}
+        {
+          "min_term": 13,
+          "max_term": 15,
+          "rate_below_5l": 35,
+          "rate_5l_plus": 36
+        },
+        {
+          "min_term": 16,
+          "max_term": 20,
+          "rate_below_5l": 39,
+          "rate_5l_plus": 40
+        },
+        {
+          "min_term": 21,
+          "max_term": 99,
+          "rate_below_5l": 45,
+          "rate_5l_plus": 46
+        }
       ],
       "fab_group": "endowment_714"
     },
@@ -71,9 +141,24 @@
       "bonus_type": "srb_fab",
       "srb_slabs": "two_slab",
       "srb": [
-        {"min_term": 13, "max_term": 15, "rate_below_5l": 38, "rate_5l_plus": 39},
-        {"min_term": 16, "max_term": 20, "rate_below_5l": 42, "rate_5l_plus": 43},
-        {"min_term": 21, "max_term": 99, "rate_below_5l": 46, "rate_5l_plus": 47}
+        {
+          "min_term": 13,
+          "max_term": 15,
+          "rate_below_5l": 38,
+          "rate_5l_plus": 39
+        },
+        {
+          "min_term": 16,
+          "max_term": 20,
+          "rate_below_5l": 42,
+          "rate_5l_plus": 43
+        },
+        {
+          "min_term": 21,
+          "max_term": 99,
+          "rate_below_5l": 46,
+          "rate_5l_plus": 47
+        }
       ],
       "fab_group": "jeevan_lakshya_733"
     },
@@ -82,9 +167,24 @@
       "bonus_type": "srb_fab",
       "srb_slabs": "two_slab",
       "srb": [
-        {"min_term": 13, "max_term": 15, "rate_below_5l": 35, "rate_5l_plus": 36},
-        {"min_term": 16, "max_term": 20, "rate_below_5l": 39, "rate_5l_plus": 40},
-        {"min_term": 21, "max_term": 99, "rate_below_5l": 45, "rate_5l_plus": 46}
+        {
+          "min_term": 13,
+          "max_term": 15,
+          "rate_below_5l": 35,
+          "rate_5l_plus": 36
+        },
+        {
+          "min_term": 16,
+          "max_term": 20,
+          "rate_below_5l": 39,
+          "rate_5l_plus": 40
+        },
+        {
+          "min_term": 21,
+          "max_term": 99,
+          "rate_below_5l": 45,
+          "rate_5l_plus": 46
+        }
       ],
       "fab_group": "jeevan_tarun_734"
     },
@@ -93,9 +193,24 @@
       "bonus_type": "srb_fab",
       "srb_slabs": "three_slab",
       "srb": [
-        {"term": 16, "rate_below_5l": 40, "rate_5l_to_10l": 41, "rate_10l_plus": 42},
-        {"term": 21, "rate_below_5l": 44, "rate_5l_to_10l": 45, "rate_10l_plus": 46},
-        {"term": 25, "rate_below_5l": 47, "rate_5l_to_10l": 48, "rate_10l_plus": 49}
+        {
+          "term": 16,
+          "rate_below_5l": 40,
+          "rate_5l_to_10l": 41,
+          "rate_10l_plus": 42
+        },
+        {
+          "term": 21,
+          "rate_below_5l": 44,
+          "rate_5l_to_10l": 45,
+          "rate_10l_plus": 46
+        },
+        {
+          "term": 25,
+          "rate_below_5l": 47,
+          "rate_5l_to_10l": 48,
+          "rate_10l_plus": 49
+        }
       ],
       "fab_group": "jeevan_labh_736"
     },
@@ -104,22 +219,102 @@
       "bonus_type": "srb_fab",
       "srb_slabs": "multi_dimensional",
       "srb": [
-        {"ppt": 15, "age_band": "up_to_55", "rate_below_5l": 49, "rate_5l_plus": 50},
-        {"ppt": 15, "age_band": "56_70", "rate_below_5l": 58, "rate_5l_plus": 59},
-        {"ppt": 15, "age_band": "71_85", "rate_below_5l": 65, "rate_5l_plus": 66},
-        {"ppt": 15, "age_band": "86_plus", "rate_below_5l": 74, "rate_5l_plus": 75},
-        {"ppt": 20, "age_band": "up_to_55", "rate_below_5l": 48, "rate_5l_plus": 49},
-        {"ppt": 20, "age_band": "56_70", "rate_below_5l": 53, "rate_5l_plus": 54},
-        {"ppt": 20, "age_band": "71_85", "rate_below_5l": 60, "rate_5l_plus": 61},
-        {"ppt": 20, "age_band": "86_plus", "rate_below_5l": 68, "rate_5l_plus": 69},
-        {"ppt": 25, "age_band": "up_to_55", "rate_below_5l": 47, "rate_5l_plus": 48},
-        {"ppt": 25, "age_band": "56_70", "rate_below_5l": 48, "rate_5l_plus": 49},
-        {"ppt": 25, "age_band": "71_85", "rate_below_5l": 54, "rate_5l_plus": 55},
-        {"ppt": 25, "age_band": "86_plus", "rate_below_5l": 63, "rate_5l_plus": 64},
-        {"ppt": 30, "age_band": "up_to_55", "rate_below_5l": null, "rate_5l_plus": null},
-        {"ppt": 30, "age_band": "56_70", "rate_below_5l": 47, "rate_5l_plus": 48},
-        {"ppt": 30, "age_band": "71_85", "rate_below_5l": 48, "rate_5l_plus": 49},
-        {"ppt": 30, "age_band": "86_plus", "rate_below_5l": 58, "rate_5l_plus": 59}
+        {
+          "ppt": 15,
+          "age_band": "up_to_55",
+          "rate_below_5l": 49,
+          "rate_5l_plus": 50
+        },
+        {
+          "ppt": 15,
+          "age_band": "56_70",
+          "rate_below_5l": 58,
+          "rate_5l_plus": 59
+        },
+        {
+          "ppt": 15,
+          "age_band": "71_85",
+          "rate_below_5l": 65,
+          "rate_5l_plus": 66
+        },
+        {
+          "ppt": 15,
+          "age_band": "86_plus",
+          "rate_below_5l": 74,
+          "rate_5l_plus": 75
+        },
+        {
+          "ppt": 20,
+          "age_band": "up_to_55",
+          "rate_below_5l": 48,
+          "rate_5l_plus": 49
+        },
+        {
+          "ppt": 20,
+          "age_band": "56_70",
+          "rate_below_5l": 53,
+          "rate_5l_plus": 54
+        },
+        {
+          "ppt": 20,
+          "age_band": "71_85",
+          "rate_below_5l": 60,
+          "rate_5l_plus": 61
+        },
+        {
+          "ppt": 20,
+          "age_band": "86_plus",
+          "rate_below_5l": 68,
+          "rate_5l_plus": 69
+        },
+        {
+          "ppt": 25,
+          "age_band": "up_to_55",
+          "rate_below_5l": 47,
+          "rate_5l_plus": 48
+        },
+        {
+          "ppt": 25,
+          "age_band": "56_70",
+          "rate_below_5l": 48,
+          "rate_5l_plus": 49
+        },
+        {
+          "ppt": 25,
+          "age_band": "71_85",
+          "rate_below_5l": 54,
+          "rate_5l_plus": 55
+        },
+        {
+          "ppt": 25,
+          "age_band": "86_plus",
+          "rate_below_5l": 63,
+          "rate_5l_plus": 64
+        },
+        {
+          "ppt": 30,
+          "age_band": "up_to_55",
+          "rate_below_5l": null,
+          "rate_5l_plus": null
+        },
+        {
+          "ppt": 30,
+          "age_band": "56_70",
+          "rate_below_5l": 47,
+          "rate_5l_plus": 48
+        },
+        {
+          "ppt": 30,
+          "age_band": "71_85",
+          "rate_below_5l": 48,
+          "rate_5l_plus": 49
+        },
+        {
+          "ppt": 30,
+          "age_band": "86_plus",
+          "rate_below_5l": 58,
+          "rate_5l_plus": 59
+        }
       ],
       "fab_group": "jeevan_umang_745"
     },
@@ -127,22 +322,48 @@
       "name": "Bima Shree",
       "bonus_type": "ga_la",
       "ga": [
-        {"year_from": 1, "year_to": 5, "rate_per_1000": 50},
-        {"year_from": 6, "year_to": 99, "rate_per_1000": 55}
+        {
+          "year_from": 1,
+          "year_to": 5,
+          "rate_per_1000": 50
+        },
+        {
+          "year_from": 6,
+          "year_to": 99,
+          "rate_per_1000": 55
+        }
       ],
       "la": [
-        {"term": 12, "rate_per_1000": 100},
-        {"term": 16, "rate_per_1000": 110},
-        {"term": 20, "rate_per_1000": 130}
+        {
+          "term": 12,
+          "rate_per_1000": 100
+        },
+        {
+          "term": 16,
+          "rate_per_1000": 110
+        },
+        {
+          "term": 20,
+          "rate_per_1000": 130
+        }
       ]
     },
     "751": {
       "name": "Micro Bachat",
       "bonus_type": "la_only",
       "la": [
-        {"term": 20, "rate_per_1000": 10},
-        {"term": 22, "rate_per_1000": 20},
-        {"term": 25, "rate_per_1000": 120}
+        {
+          "term": 20,
+          "rate_per_1000": 10
+        },
+        {
+          "term": 22,
+          "rate_per_1000": 20
+        },
+        {
+          "term": 25,
+          "rate_per_1000": 120
+        }
       ]
     },
     "760": {
@@ -186,96 +407,336 @@
     "endowment_714": {
       "description": "FAB for New Endowment (714), Children MB (732), Single Prem (717)",
       "slabs": [
-        {"slab_id": "sa_below_2l", "min_sa": 0, "max_sa": 199999},
-        {"slab_id": "sa_2l_plus", "min_sa": 200000, "max_sa": 999999999}
+        {
+          "slab_id": "sa_below_2l",
+          "min_sa": 0,
+          "max_sa": 199999
+        },
+        {
+          "slab_id": "sa_2l_plus",
+          "min_sa": 200000,
+          "max_sa": 999999999
+        }
       ],
       "rates": [
-        {"duration": 15, "sa_below_2l": 10, "sa_2l_plus": 20},
-        {"duration": 20, "sa_below_2l": 40, "sa_2l_plus": 70},
-        {"duration": 25, "sa_below_2l": 330, "sa_2l_plus": 450},
-        {"duration": 30, "sa_below_2l": 900, "sa_2l_plus": 1100},
-        {"duration": 35, "sa_below_2l": 1850, "sa_2l_plus": 2300},
-        {"duration": 40, "sa_below_2l": 3000, "sa_2l_plus": 3550}
+        {
+          "duration": 15,
+          "sa_below_2l": 10,
+          "sa_2l_plus": 20
+        },
+        {
+          "duration": 16,
+          "sa_below_2l": 15,
+          "sa_2l_plus": 25
+        },
+        {
+          "duration": 17,
+          "sa_below_2l": 20,
+          "sa_2l_plus": 30
+        },
+        {
+          "duration": 18,
+          "sa_below_2l": 25,
+          "sa_2l_plus": 40
+        },
+        {
+          "duration": 19,
+          "sa_below_2l": 30,
+          "sa_2l_plus": 50
+        },
+        {
+          "duration": 20,
+          "sa_below_2l": 40,
+          "sa_2l_plus": 70
+        },
+        {
+          "duration": 21,
+          "sa_below_2l": 50,
+          "sa_2l_plus": 100
+        },
+        {
+          "duration": 22,
+          "sa_below_2l": 100,
+          "sa_2l_plus": 150
+        },
+        {
+          "duration": 23,
+          "sa_below_2l": 150,
+          "sa_2l_plus": 250
+        },
+        {
+          "duration": 24,
+          "sa_below_2l": 200,
+          "sa_2l_plus": 350
+        },
+        {
+          "duration": 25,
+          "sa_below_2l": 330,
+          "sa_2l_plus": 450
+        },
+        {
+          "duration": 26,
+          "sa_below_2l": 400,
+          "sa_2l_plus": 550
+        },
+        {
+          "duration": 27,
+          "sa_below_2l": 500,
+          "sa_2l_plus": 650
+        },
+        {
+          "duration": 28,
+          "sa_below_2l": 600,
+          "sa_2l_plus": 750
+        },
+        {
+          "duration": 29,
+          "sa_below_2l": 700,
+          "sa_2l_plus": 850
+        },
+        {
+          "duration": 30,
+          "sa_below_2l": 900,
+          "sa_2l_plus": 1100
+        },
+        {
+          "duration": 31,
+          "sa_below_2l": 1000,
+          "sa_2l_plus": 1250
+        },
+        {
+          "duration": 32,
+          "sa_below_2l": 1100,
+          "sa_2l_plus": 1400
+        },
+        {
+          "duration": 33,
+          "sa_below_2l": 1200,
+          "sa_2l_plus": 1550
+        },
+        {
+          "duration": 34,
+          "sa_below_2l": 1300,
+          "sa_2l_plus": 1700
+        },
+        {
+          "duration": 35,
+          "sa_below_2l": 1850,
+          "sa_2l_plus": 2300
+        }
       ]
     },
     "jeevan_anand_715": {
-      "description": "FAB for New Jeevan Anand (715) — uses same endowment group table",
+      "description": "FAB for New Jeevan Anand (715) \u2014 uses same endowment group table",
       "slabs": [
-        {"slab_id": "sa_below_2l", "min_sa": 0, "max_sa": 199999},
-        {"slab_id": "sa_2l_plus", "min_sa": 200000, "max_sa": 999999999}
+        {
+          "slab_id": "sa_below_2l",
+          "min_sa": 0,
+          "max_sa": 199999
+        },
+        {
+          "slab_id": "sa_2l_plus",
+          "min_sa": 200000,
+          "max_sa": 999999999
+        }
       ],
       "rates": [
-        {"duration": 15, "sa_below_2l": 10, "sa_2l_plus": 20},
-        {"duration": 20, "sa_below_2l": 40, "sa_2l_plus": 70},
-        {"duration": 25, "sa_below_2l": 330, "sa_2l_plus": 450},
-        {"duration": 30, "sa_below_2l": 900, "sa_2l_plus": 1100},
-        {"duration": 35, "sa_below_2l": 1850, "sa_2l_plus": 2300},
-        {"duration": 40, "sa_below_2l": 3000, "sa_2l_plus": 3550}
+        {
+          "duration": 15,
+          "sa_below_2l": 10,
+          "sa_2l_plus": 20
+        },
+        {
+          "duration": 20,
+          "sa_below_2l": 40,
+          "sa_2l_plus": 70
+        },
+        {
+          "duration": 25,
+          "sa_below_2l": 160,
+          "sa_2l_plus": 185
+        },
+        {
+          "duration": 30,
+          "sa_below_2l": 900,
+          "sa_2l_plus": 1100
+        },
+        {
+          "duration": 35,
+          "sa_below_2l": 1850,
+          "sa_2l_plus": 2300
+        },
+        {
+          "duration": 40,
+          "sa_below_2l": 3000,
+          "sa_2l_plus": 3550
+        }
       ]
     },
     "jeevan_lakshya_733": {
       "description": "FAB for Jeevan Lakshya (733)",
       "slabs": [
-        {"slab_id": "sa_below_2l", "min_sa": 0, "max_sa": 199999},
-        {"slab_id": "sa_2l_plus", "min_sa": 200000, "max_sa": 999999999}
+        {
+          "slab_id": "sa_below_2l",
+          "min_sa": 0,
+          "max_sa": 199999
+        },
+        {
+          "slab_id": "sa_2l_plus",
+          "min_sa": 200000,
+          "max_sa": 999999999
+        }
       ],
       "rates": [
-        {"duration": 15, "sa_below_2l": 10, "sa_2l_plus": 20},
-        {"duration": 20, "sa_below_2l": 40, "sa_2l_plus": 70},
-        {"duration": 25, "sa_below_2l": 330, "sa_2l_plus": 450}
+        {
+          "duration": 15,
+          "sa_below_2l": 10,
+          "sa_2l_plus": 20
+        },
+        {
+          "duration": 20,
+          "sa_below_2l": 40,
+          "sa_2l_plus": 70
+        },
+        {
+          "duration": 25,
+          "sa_below_2l": 330,
+          "sa_2l_plus": 450
+        }
       ]
     },
     "jeevan_labh_736": {
-      "description": "FAB for Jeevan Labh (736) — multi-year matrix",
+      "description": "FAB for Jeevan Labh (736) \u2014 multi-year matrix",
       "type": "matrix",
       "rates": [
-        {"exit_year": 21, "at_21": 650, "at_22": 220, "at_23": 190, "at_24": 130, "at_25": 110},
-        {"exit_year": 22, "at_22": 800, "at_23": 250, "at_24": 220, "at_25": 140},
-        {"exit_year": 23, "at_23": 1000, "at_24": 270, "at_25": 240},
-        {"exit_year": 24, "at_24": 1050, "at_25": 300},
-        {"exit_year": 25, "at_25": 1100}
+        {
+          "exit_year": 21,
+          "at_21": 650,
+          "at_22": 220,
+          "at_23": 190,
+          "at_24": 130,
+          "at_25": 110
+        },
+        {
+          "exit_year": 22,
+          "at_22": 800,
+          "at_23": 250,
+          "at_24": 220,
+          "at_25": 140
+        },
+        {
+          "exit_year": 23,
+          "at_23": 1000,
+          "at_24": 270,
+          "at_25": 240
+        },
+        {
+          "exit_year": 24,
+          "at_24": 1050,
+          "at_25": 300
+        },
+        {
+          "exit_year": 25,
+          "at_25": 1100
+        }
       ]
     },
     "money_back_720": {
       "description": "FAB for New Money Back 20 (720)",
       "slabs": [
-        {"slab_id": "sa_below_2l", "min_sa": 0, "max_sa": 199999},
-        {"slab_id": "sa_2l_plus", "min_sa": 200000, "max_sa": 999999999}
+        {
+          "slab_id": "sa_below_2l",
+          "min_sa": 0,
+          "max_sa": 199999
+        },
+        {
+          "slab_id": "sa_2l_plus",
+          "min_sa": 200000,
+          "max_sa": 999999999
+        }
       ],
       "rates": [
-        {"duration": 20, "sa_below_2l": 40, "sa_2l_plus": 70}
+        {
+          "duration": 20,
+          "sa_below_2l": 40,
+          "sa_2l_plus": 70
+        }
       ]
     },
     "money_back_721": {
       "description": "FAB for New Money Back 25 (721)",
       "slabs": [
-        {"slab_id": "sa_below_2l", "min_sa": 0, "max_sa": 199999},
-        {"slab_id": "sa_2l_plus", "min_sa": 200000, "max_sa": 999999999}
+        {
+          "slab_id": "sa_below_2l",
+          "min_sa": 0,
+          "max_sa": 199999
+        },
+        {
+          "slab_id": "sa_2l_plus",
+          "min_sa": 200000,
+          "max_sa": 999999999
+        }
       ],
       "rates": [
-        {"duration": 25, "sa_below_2l": 330, "sa_2l_plus": 450}
+        {
+          "duration": 25,
+          "sa_below_2l": 330,
+          "sa_2l_plus": 450
+        }
       ]
     },
     "jeevan_tarun_734": {
       "description": "FAB for Jeevan Tarun (734)",
       "slabs": [
-        {"slab_id": "sa_below_2l", "min_sa": 0, "max_sa": 199999},
-        {"slab_id": "sa_2l_plus", "min_sa": 200000, "max_sa": 999999999}
+        {
+          "slab_id": "sa_below_2l",
+          "min_sa": 0,
+          "max_sa": 199999
+        },
+        {
+          "slab_id": "sa_2l_plus",
+          "min_sa": 200000,
+          "max_sa": 999999999
+        }
       ],
       "rates": [
-        {"duration": 15, "sa_below_2l": 10, "sa_2l_plus": 20},
-        {"duration": 20, "sa_below_2l": 40, "sa_2l_plus": 70},
-        {"duration": 25, "sa_below_2l": 330, "sa_2l_plus": 450}
+        {
+          "duration": 15,
+          "sa_below_2l": 10,
+          "sa_2l_plus": 20
+        },
+        {
+          "duration": 20,
+          "sa_below_2l": 40,
+          "sa_2l_plus": 70
+        },
+        {
+          "duration": 25,
+          "sa_below_2l": 330,
+          "sa_2l_plus": 450
+        }
       ]
     },
     "jeevan_umang_745": {
       "description": "LA/FAB for Jeevan Umang (745) - per brochure",
       "type": "la_by_year",
       "rates": [
-        {"year": 7, "rate_per_1000": 40},
-        {"year": 10, "rate_per_1000": 65},
-        {"year": 15, "rate_per_1000": 140},
-        {"year": 19, "rate_per_1000": 185}
+        {
+          "year": 7,
+          "rate_per_1000": 40
+        },
+        {
+          "year": 10,
+          "rate_per_1000": 65
+        },
+        {
+          "year": 15,
+          "rate_per_1000": 140
+        },
+        {
+          "year": 19,
+          "rate_per_1000": 185
+        }
       ]
     }
   }
